@@ -1,0 +1,27 @@
+body {
+  background-color: whitesmoke;
+}
+
+.container-fluid main .bi-pencil {
+  margin-right: 8px;
+}
+
+main .row {
+  margin-top: 128px;
+}
+
+main button {
+  margin-top: 16px;
+}
+
+main img {
+  width: 40vw;
+  height: 40vh;
+}
+
+@media screen and (max-device-width: 460px)
+{
+  img {
+    display: none;
+  }
+}
